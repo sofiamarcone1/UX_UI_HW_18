@@ -31,11 +31,11 @@ ul {
 	font-family: 'Roboto', sans-serif;
 }
 
-main1{
+.main1{
 	font-family: 'Roboto', sans-serif;
 	align-items: center;
  }
-Aboutme{ 
+.Aboutme{ 
         display: flex;
         align-items: center;
         justify-content: center
@@ -64,6 +64,83 @@ ul li {
 	text-align: right;
 	font-family: 'Roboto', sans-serif;
 }
+
+.MyUXSkills{
+
+	width: 100vw;
+	height:50vh;
+
+	font-family: "Quicksand",sans-serif;
+	font-weight:lighter;
+	font-size: 20px;
+
+
+	display:grid;
+
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+	gap: 15px;
+
+	padding: 15px;
+	box-sizing:border-box;
+	justify-content: center;
+  }
+
+  .MyUXSkills div{
+
+	padding: 15px;
+	border: 1px solid rgb(216, 145, 12);
+  }
+
+  .Research{
+
+	grid-column-start: 1;
+	grid-column-end: 1;
+	
+  }
+
+
+  .UI{
+
+	grid-column-start: 2;
+	grid-column-end: 2;
+  }
+
+  .Innovation{
+	grid-column-start: 3;
+	grid-column-end: 3;
+  }
+
+  .CaseStudies{
+	width: 100vw;
+	height:20vh;
+
+	font-family: "Quicksand",sans-serif;
+	font-weight:lighter;
+	font-size: 20px;
+
+
+	display:grid;
+
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 50px 1fr 1fr 100px;
+	gap: 15px;
+
+	padding: 15px;
+	box-sizing:border-box;
+	justify-content: center;
+
+  }
+
+  .CaseStudies{
+	padding: 15px;
+	border: 1px solid rgb(216, 145, 12);
+  }
+
+  .Girl{
+	grid-column-start: 1;
+	grid-column-end: 4;
+  }
 footer {
 	background-color: #ed8a19;
 	padding: 20px;
