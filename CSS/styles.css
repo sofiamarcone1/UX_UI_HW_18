@@ -84,6 +84,7 @@ ul li {
 	padding: 15px;
 	box-sizing:border-box;
 	justify-content: center;
+	
   }
 
   .MyUXSkills div{
@@ -112,8 +113,8 @@ ul li {
   }
 
   .CaseStudies{
-	width: 100vw;
-	height:20vh;
+	width: 90vw;
+	height:100vh;
 
 	font-family: "Quicksand",sans-serif;
 	font-weight:lighter;
