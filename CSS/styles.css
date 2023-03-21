@@ -93,11 +93,6 @@ ul li {
 	border: 1px solid rgb(216, 145, 12);
 
   }
-  .img{
-	width: 30%;
-	align-items: center;
-	border: none;
-  }
 
   .Research{
 
@@ -149,16 +144,7 @@ ul li {
 
   }
 
-  .CaseStudies{
-	padding: 15px;
-	border: 1px solid rgb(216, 145, 12);
-	gap: 15px;
-  }
 
-  .Girl{
-	grid-column-start: 1;
-	grid-column-end: 4;
-  }
 footer {
 	background-color: #ed8a19;
 	padding: 20px;
